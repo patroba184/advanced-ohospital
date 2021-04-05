@@ -1,0 +1,32 @@
+.awesome{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.awesome__title{
+    text-align: center;
+}
+
+.awesome__row{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.awesome__cardcontent{
+    text-align: left;
+    color: #6E7582;
+    font-size: small;
+}
+
+.awesome__card{
+    margin: 16px;
+    max-width: 350px;
+}
+
+
+.awesome__image{
+    height: 500px;
+    width: 300px;
+    object-fit: contain;
+    background-color:white;
+}

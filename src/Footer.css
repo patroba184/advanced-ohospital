@@ -1,0 +1,33 @@
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__sectionone{
+    align-content: center;
+    padding-top: 130px;
+}
+
+.footer__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section > ul{
+    list-style-type: none;
+}
+
+.footer__section>ul>li{
+    margin: 10px;
+    color:#9E9D89;
+}
+
+.footer__section>h5{
+    font-size: large;
+    font-weight: 500;
+}

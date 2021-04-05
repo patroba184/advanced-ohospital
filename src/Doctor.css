@@ -1,0 +1,141 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container__row{
+    display: flex;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color:white;
+    z-index: 1;
+}
+ 
+.product >img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+
+.product__info{
+    height: 60px;
+}
+
+.product__info>p{
+    margin-top: 2px;
+}
+
+
+.category__container{
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    min-width: 70px;
+    align-items: left;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color:white;
+    z-index: 1;
+}
+
+.category__container >ul>li{
+    list-style-type: none;
+    margin-left: 0px;
+    color: #6e7c7c;
+}
+
+
+
+.category__container>h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #92967d;
+}
+
+.category__container>strong{
+    margin-left: auto;
+    margin-right: auto;
+    color: #7868e6;
+}
+
+.category__container{
+    margin-top: 20px;
+}
+
+.featured__category{
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    min-width: 70px;
+    align-items: left;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color:white;
+    z-index: 1;
+}
+
+.container__searchInput{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 2px;
+    height: 30px;
+    border: transparent;
+}
+
+.container__search{
+    display: flex;
+}
+
+.searchIcon{
+    margin-top:20px;
+    padding:2px ;
+    background-color: #fff;
+    color: #9e9d89;
+}
+
+.category__info{
+    display: flex;
+    justify-content: space-between;
+}
+.doctors__name>ul>li{
+    list-style-type: none;
+}
+.doctors__nameRight>ul>li{
+    list-style-type: none;
+    padding: 2px;
+    color: #6e7c7c;
+}
+
+.featured__category>h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #92967d;
+}
+
+.doctors__name>ul>li{
+    color: #6e7c7c;
+}

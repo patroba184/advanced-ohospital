@@ -1,0 +1,40 @@
+.ourservices__row{
+    display: flex;
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color:white;
+    z-index: 1;
+}
+
+.product >img{
+    width: 100%px;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.product__container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact__heading{
+    text-align: center;
+    color: blue;
+}
