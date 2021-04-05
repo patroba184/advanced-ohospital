@@ -1,0 +1,14 @@
+.pharmacy__containercontents{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.product__card{
+    height: 400px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2edd7;
+    color: #7868e6;
+}
